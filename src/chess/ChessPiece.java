@@ -4,7 +4,7 @@ import boardgame.Board;
 import boardgame.Piece;
 
 //subclasse de peça, como la tem contrutor aqui tem que ter tb
-public class ChessPiece extends Piece {
+public abstract class ChessPiece extends Piece {
 
     private Color color;
 
